@@ -1,2 +1,2 @@
-# Data-structure-and-Algorithms
-자료구조와 알고리즘
+# python-coding-test-practice
+코딩 테스트 합격자 되기: 파이썬 편

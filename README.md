@@ -6,6 +6,7 @@
 ## Collaborators
 - [kyungheee](https://github.com/kyungheee)
 - [devzoe](https://github.com/devzoe)
+- [sujungeee](https://github.com/sujungeee)
 
 ## 사용 교재
 - 교재 : [코딩 테스트 합격자 되기: 파이썬 편](https://m.yes24.com/Goods/Detail/123272392)

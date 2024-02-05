@@ -12,7 +12,7 @@
 
 ## 문제 목록
 
-| 주차 | 문제 이름 | 문제 링크 | 참고 |
+| 일차 | 문제 이름 | 문제 링크 | 참고 |
 |------|-----------|-----------|------|
 | 10일차 | 문제30 미로 탈출 | [미로 탈출](https://school.programmers.co.kr/learn/courses/30/lessons/159993) | - |
 | 10일차 | 문제29 다단계 칫솔 판매 | [다단계 칫솔 판매](https://school.programmers.co.kr/learn/courses/30/lessons/77486) | - |

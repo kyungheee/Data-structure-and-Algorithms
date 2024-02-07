@@ -1,0 +1,13 @@
+def solution(decimal):
+    stack=[]
+    while decimal > 0 :
+        remainder = decimal%2     #나머지
+        stack.append(str(remainder)) #나머지 append 실행
+        decimal //= 2    #십진법에 2로 나눠 몫 구하기 (ex) +=와 같은 종류)
+    
+    
+    binary = ""    #이진법 문자열로 표현
+    while stack:
+        binary += stack.pop()  #stack에 저장된거 꺼내서 binary에 저장
+
+    return binary

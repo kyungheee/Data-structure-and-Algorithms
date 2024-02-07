@@ -1,0 +1,25 @@
+def is_valid_move(nx, ny):
+    return 0 <= nx <11 and 0<= ny <11  #and는 True 아니면 False로 나옴
+
+def update_location(x, y, dir):
+    if dir == 'U':
+        nx, ny = x, y+1
+    elif dir == 'D':
+        nx, ny = x, y-1
+    elif dir =='L':
+        nx, ny = x-1, y
+    elif dir =='R':
+        nx, ny = x+1, y
+    return nx, ny
+
+def solution(dirs):
+    x, y = 5, 5
+    ans = set()      #set집합(같은걸 넣어도 하나로 취급)
+    for dir in dirs:
+        nx, ny = update_location(x, y, dir)
+        if not is_valid_move(nx, ny):  # not True(범위에 있어) => False => add 실행
+            continue                   # True면 continue 실행
+        ans.add((x, y, nx, ny))        # False면 add 실행  
+        ans.add((nx, ny, x, y))         
+        x, y = nx, ny         #좌표 이동 후, 시작하는 좌표 덮어씌우기
+        return len(ans)/2     # 거리를 측정시 중복제거(반대 방향에서 오는거) 

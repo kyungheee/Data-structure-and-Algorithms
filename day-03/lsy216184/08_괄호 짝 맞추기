@@ -1,0 +1,15 @@
+def solution(s):
+    stack=[]
+    for c in s:
+        if c == "(":
+            stack.append(c)
+        elif c == ')':
+            if not stack: #stack이 존재하는지 확인
+                return False #stack이 없다면 False
+            else:
+                stack.pop(c) #stack이 있다면 pop실행
+    
+    if stack:
+        return False   #stack이 남아있다=>짝이 맞지 않음X
+    else:
+        return True    #stack이 없다=>짝이 맞음O

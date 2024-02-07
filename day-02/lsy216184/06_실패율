@@ -1,0 +1,16 @@
+def solution(N, stages):
+    challenger = [0]*(N+2)
+    for stage in stages:
+         challenger[stage] += 1 # [0,1,3,2,1,0,6]
+    
+    fails={}     #실패율
+    total=len(stages) #참가 수
+    
+    for i in range(1, N+1):
+        if challenger[i] == 0:
+            fails[i]=0
+        else:
+            fails[i]= challenger[i] / total
+            total -=challenger[i]
+    answer = sorted(fails, key=lambda x:fails[x], reverse=True)
+    return answer

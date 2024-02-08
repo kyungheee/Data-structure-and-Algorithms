@@ -1,0 +1,11 @@
+# s="baabaa"
+def solution(s):
+    stack=[]
+    for i in s:
+        if stack and stack[-1] == i: #스텍이 존재하고, 맨위의 값이 i와 같으면
+            stack.pop()
+        else:
+            stack.append(i)
+
+    return int(not stack) # not stack 스텍이 (없으면=True / 있으면=False)
+                            # 불리언 값을 정수형으로 나타냄

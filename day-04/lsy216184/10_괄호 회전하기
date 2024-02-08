@@ -1,0 +1,30 @@
+def solution(s):
+    answer=0
+    n= len(s) #6
+
+
+    for i in range(n):   #012345
+        stack=[]
+        
+        for j in range(n): #012345 고정값
+            c = s[(i+j)%n]    #순환구현
+
+            if c=="(" or c=="[" or c=="{":
+                stack.append(c)   #열린기호면 푸시
+                
+            else:                 #열린기호아니면 닫힌기호야
+                if not stack:      #맞춰볼 stack이 있나 확인
+                    break          #stack 없다면 내부루프 종료
+
+                if c==")" and stack[-1]=="(":    #stack 있다면 새로운 if문 실행
+                    stack.pop()
+                elif c=="]"and stack[-1]=="[":
+                    stack.pop()
+                elif c=="}" and stack[-1]=="{":
+                    stack.pop()
+                else:
+                    break
+        else:        
+            if not stack:
+                answer += 1
+    return answer

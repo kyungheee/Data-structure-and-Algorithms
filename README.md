@@ -16,6 +16,36 @@
 
 | 일차 | 문제 이름 | 문제 링크 | 참고 |
 |------|-----------|-----------|------|
+| 20일차 | 문제60 튜플 | [튜플](https://school.programmers.co.kr/learn/courses/30/lessons/64065) | - |
+| 20일차 | 문제59 가장 큰 수 | [가장 큰 수](https://school.programmers.co.kr/learn/courses/30/lessons/42746) | - |
+| 20일차 | 문제58 K번째 수 | [K번째 수](https://school.programmers.co.kr/learn/courses/30/lessons/42748) | - |
+| 19일차 | 문제57 정수 내림차순으로 배치하기 | [정수 내림차순으로 배치하기](https://school.programmers.co.kr/learn/courses/30/lessons/12933) | - |
+| 19일차 | 문제56 문자열 내 마음대로 정렬하기 | [문자열 내 마음대로 정렬하기](https://school.programmers.co.kr/learn/courses/30/lessons/12915) | - |
+| 19일차 | 문제55 정렬이 완료된 두 배열 합치기 | [정렬이 완료된 두 배열 합치기](https://github.com/dremdeveloper/codingtest_python/blob/main/solution/55.py) | - |
+| 18일차 | 문제54 계수 정렬 구현하기 | [계수 정렬 구현하기](https://github.com/dremdeveloper/codingtest_python/blob/main/solution/54.py) | - |
+| 18일차 | 문제53 사라지는 발판 | [사라지는 발판](https://school.programmers.co.kr/learn/courses/30/lessons/92345) | - |
+| 18일차 | 문제52 외벽 점검 | [외벽 점검](https://school.programmers.co.kr/learn/courses/30/lessons/60062) | - |
+| 17일차 | 문제51 양궁 대회 | [양궁 대회](https://school.programmers.co.kr/learn/courses/30/lessons/92342) | - |
+| 17일차 | 문제50 N-퀸 | [N-퀸](https://school.programmers.co.kr/learn/courses/30/lessons/12952) | - |
+| 17일차 | 문제49 피로도 | [피로도](https://school.programmers.co.kr/learn/courses/30/lessons/87946) | - |
+| 16일차 | 문제48 스도쿠 퍼즐 | [스도쿠 퍼즐](https://github.com/dremdeveloper/codingtest_python/blob/main/solution/48.py) | - |
+| 16일차 | 문제47 1부터 N까지 숫자 중 합이 10이 되는 조합 구하기 | [1부터 N까지 숫자 중 합이 10이 되는 조합 구하기](https://github.com/dremdeveloper/codingtest_python/blob/main/solution/47.py) | - |
+| 16일차 | 문제46 전력망을 둘로 나누기 | [전력망을 둘로 나누기](https://school.programmers.co.kr/learn/courses/30/lessons/86971) | - |
+| 15일차 | 문제45 경주로 건설 | [경주로 건설](https://school.programmers.co.kr/learn/courses/30/lessons/67259) | - |
+| 15일차 | 문제44 배달 | [배달](https://school.programmers.co.kr/learn/courses/30/lessons/12978) | - |
+| 15일차 | 문제43 네트워크 | [네트워크](https://school.programmers.co.kr/learn/courses/30/lessons/43162) | - |
+| 14일차 | 문제42 게임 맵 최단 거리 | [게임 맵 최단 거리](https://school.programmers.co.kr/learn/courses/30/lessons/1844) | - |
+| 14일차 | 문제41 벨만-포드 알고리즘 | [벨만-포드 알고리즘](https://github.com/dremdeveloper/codingtest_python/blob/main/solution/41.py) | - |
+| 14일차 | 문제40 다익스트라 알고리즘 | [다익스트라 알고리즘](https://github.com/dremdeveloper/codingtest_python/blob/main/solution/40.py) | - |
+| 13일차 | 문제39 너비 우선 탐색 순회 | [너비 우선 탐색 순회](https://github.com/dremdeveloper/codingtest_python/blob/main/solution/39.py) | - |
+| 13일차 | 문제38 깊이 우선 탐색 순회 | [깊이 우선 탐색 순회](https://github.com/dremdeveloper/codingtest_python/blob/main/solution/38.py) | - |
+| 13일차 | 문제37 섬 연결하기 | [섬 연결하기](https://school.programmers.co.kr/learn/courses/30/lessons/42861) | - |
+| 12일차 | 문제36 전화번호 목록 | [전화번호 목록](https://school.programmers.co.kr/learn/courses/30/lessons/42577) | - |
+| 12일차 | 문제35 영어 끝말잇기 | [영어 끝말잇기](https://school.programmers.co.kr/learn/courses/30/lessons/12981) | - |
+| 12일차 | 문제34 폰켓몬 | [폰켓몬](https://school.programmers.co.kr/learn/courses/30/lessons/1845) | - |
+| 11일차 | 문제33 간단한 유니온-파인드 알고리즘 구현하기 | [간단한 유니온-파인드 알고리즘 구현하기](https://github.com/dremdeveloper/codingtest_python/blob/main/solution/33.py) | - |
+| 11일차 | 문제32 길 찾기 게임 | [길 찾기 게임](https://school.programmers.co.kr/learn/courses/30/lessons/42892) | - |
+| 11일차 | 문제31 양과 늑대 | [양과 늑대](https://school.programmers.co.kr/learn/courses/30/lessons/92343) | - |
 | 10일차 | 문제30 미로 탈출 | [미로 탈출](https://school.programmers.co.kr/learn/courses/30/lessons/159993) | - |
 | 10일차 | 문제29 다단계 칫솔 판매 | [다단계 칫솔 판매](https://school.programmers.co.kr/learn/courses/30/lessons/77486) | - |
 | 10일차 | 문제28 예상 대진표 | [예상 대진표](https://school.programmers.co.kr/learn/courses/30/lessons/12985) | - |

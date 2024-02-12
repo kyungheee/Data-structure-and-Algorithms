@@ -1,4 +1,4 @@
-def count_sort(acc, k):
+def count_sort(arr, k):
     # 해시 테이블 생성 및 초기화
     hashtable = [0] * (k+1)
 

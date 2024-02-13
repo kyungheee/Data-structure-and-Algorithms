@@ -21,5 +21,3 @@ def solution(genres, plays):
         answer += [item[0] for item in top]
 
     return answer
-
-print(solution(["classic", "pop", "classic", "classic", "pop", "dance"], [500, 600, 150, 800, 2500, 100]))

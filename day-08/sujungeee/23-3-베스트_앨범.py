@@ -46,6 +46,3 @@ class album:
         return self.play == other.play
     def __ne__(self, other):
         return self.play != other.play
-
-
-print(solution(["classic", "pop", "classic", "classic", "pop", "dance"], [500, 600, 150, 800, 2500, 100]))

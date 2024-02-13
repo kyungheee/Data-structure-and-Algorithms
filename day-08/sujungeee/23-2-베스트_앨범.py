@@ -22,6 +22,3 @@ def solution(genres, plays):
         answer.extend([idx for idx, _ in sorted_songs[:2]])
 
     return answer
-
-
-print(solution(["classic", "pop", "classic", "classic", "pop", "dance"], [500, 600, 150, 800, 2500, 100]))

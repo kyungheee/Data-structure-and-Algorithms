@@ -13,6 +13,3 @@ def solution(id_list, report, k):
             answer[id_list.index(r.split()[0])] += 1
 
     return answer
-
-print(solution(["muzi", "frodo", "apeach", "neo"], ["muzi frodo","apeach frodo","frodo neo","muzi neo","apeach muzi"], 2))
-print(solution(["con", "ryan"], ["ryan con", "ryan con", "ryan con", "ryan con"], 3))

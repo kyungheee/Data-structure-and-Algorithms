@@ -30,6 +30,3 @@ def solution(id_list, report, k):
         answer.append(cnt)
 
     return answer
-
-print(solution(["muzi", "frodo", "apeach", "neo"], ["muzi frodo","apeach frodo","frodo neo","muzi neo","apeach muzi"], 2))
-print(solution(["con", "ryan"], ["ryan con", "ryan con", "ryan con", "ryan con"], 3))

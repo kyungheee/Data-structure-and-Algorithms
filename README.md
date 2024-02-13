@@ -16,6 +16,46 @@
 
 | 일차 | 문제 이름 | 문제 링크 | 참고 |
 |------|-----------|-----------|------|
+| 33일차 | 문제100 로또의 최고 순위와 최저 순위 | [로또의 최고 순위와 최저 순위](https://school.programmers.co.kr/learn/courses/30/lessons/77484) | - |
+| 33일차 | 문제99 파괴되지 않은 건물 | [파괴되지 않은 건물](https://school.programmers.co.kr/learn/courses/30/lessons/92344) | - |
+| 33일차 | 문제98 보석 쇼핑 | [보석 쇼핑](https://school.programmers.co.kr/learn/courses/30/lessons/67258) | - |
+| 33일차 | 문제97 숫자 게임 | [숫자 게임](https://school.programmers.co.kr/learn/courses/30/lessons/12987) | - |
+| 32일차 | 문제96 두 큐 합 같게 만들기 | [두 큐 합 같게 만들기](https://school.programmers.co.kr/learn/courses/30/lessons/118667) | - |
+| 32일차 | 문제95 코딩 테스트 공부 | [코딩 테스트 공부](https://school.programmers.co.kr/learn/courses/30/lessons/118668) | - |
+| 32일차 | 문제94 거리두기 확인하기 | [거리두기 확인하기](https://school.programmers.co.kr/learn/courses/30/lessons/81302) | - |
+| 31일차 | 문제93 k진수에서 소수 개수 구하기 | [k진수에서 소수 개수 구하기](https://school.programmers.co.kr/learn/courses/30/lessons/92335) | - |
+| 31일차 | 문제92 불량 사용자 | [불량 사용자](https://school.programmers.co.kr/learn/courses/30/lessons/64064) | - |
+| 31일차 | 문제91 없는 숫자 더하기 | [없는 숫자 더하기](https://school.programmers.co.kr/learn/courses/30/lessons/86051) | - |
+| 30일차 | 문제90 쿼드압축 후 개수 세기 | [쿼드압축 후 개수 세기](https://school.programmers.co.kr/learn/courses/30/lessons/68936) | - |
+| 30일차 | 문제89 110 옮기기 | [110 옮기기](https://school.programmers.co.kr/learn/courses/30/lessons/77886) | - |
+| 30일차 | 문제88 개인정보 수집 유효기간 | [개인정보 수집 유효기간](https://school.programmers.co.kr/learn/courses/30/lessons/150370) | - |
+| 29일차 | 문제87 택배 배달과 수거하기 | [택배 배달과 수거하기](https://school.programmers.co.kr/learn/courses/30/lessons/150369) | - |
+| 29일차 | 문제86 미로 탈출 명령어 | [미로 탈출 명령어](https://school.programmers.co.kr/learn/courses/30/lessons/150365) | - |
+| 29일차 | 문제85 기지국 설치 | [기지국 설치](https://school.programmers.co.kr/learn/courses/30/lessons/12979) | - |
+| 28일차 | 문제84 귤 고르기 | [귤 고르기](https://school.programmers.co.kr/learn/courses/30/lessons/138476) | - |
+| 28일차 | 문제83 구명보트 | [구명보트](https://school.programmers.co.kr/learn/courses/30/lessons/42885) | - |
+| 28일차 | 문제82 예산 | [예산](https://school.programmers.co.kr/learn/courses/30/lessons/12982) | - |
+| 27일차 | 문제81 부분 배낭 문제 | [부분 배낭 문제](https://github.com/dremdeveloper/codingtest_python/blob/main/solution/81.py) | - |
+| 27일차 | 문제80 거스름돈 주기 | [거스름돈 주기](https://github.com/dremdeveloper/codingtest_python/blob/main/solution/80.py) | - |
+| 27일차 | 문제79 단어 퍼즐 | [단어 퍼즐](https://school.programmers.co.kr/learn/courses/30/lessons/12983) | - |
+| 26일차 | 문제78 가장 큰 정사각형 찾기 | [가장 큰 정사각형 찾기](https://school.programmers.co.kr/learn/courses/30/lessons/12905) | - |
+| 26일차 | 문제77 도둑질 | [도둑질](https://school.programmers.co.kr/learn/courses/30/lessons/42897) | - |
+| 26일차 | 문제76 땅따먹기 | [땅따먹기](https://school.programmers.co.kr/learn/courses/30/lessons/12913) | - |
+| 25일차 | 문제75 정수 삼각형 | [정수 삼각형](https://school.programmers.co.kr/learn/courses/30/lessons/43105) | - |
+| 25일차 | 문제74 2xn 타일링 | [2xn 타일링](https://school.programmers.co.kr/learn/courses/30/lessons/12900) | - |
+| 25일차 | 문제73 피보나치 수 | [피보나치 수](https://school.programmers.co.kr/learn/courses/30/lessons/12945) | - |
+| 24일차 | 문제72 조약돌 문제 | [조약돌 문제](https://github.com/dremdeveloper/codingtest_python/blob/main/solution/72.py) | - |
+| 24일차 | 문제71 LIS 길이 계산하기| [LIS 길이 계산하기](https://github.com/dremdeveloper/codingtest_python/blob/main/solution/71.py) | - |
+| 24일차 | 문제70 LCS 길이 계산하기 | [LCS 길이 계산하기](https://github.com/dremdeveloper/codingtest_python/blob/main/solution/70.py) | - |
+| 23일차 | 문제69 캐릭터의 좌표 | [캐릭터의 좌표](https://school.programmers.co.kr/learn/courses/30/lessons/120861) | - |
+| 23일차 | 문제68 점프와 순간 이동 | [점프와 순간 이동](https://school.programmers.co.kr/learn/courses/30/lessons/12980) | - |
+| 23일차 | 문제67 카펫 | [카펫](https://school.programmers.co.kr/learn/courses/30/lessons/42842) | - |
+| 22일차 | 문제66 롤케이크 자르기 | [롤케이크 자르기](https://school.programmers.co.kr/learn/courses/30/lessons/132265) | - |
+| 22일차 | 문제65 이진 변환 | [이진 변환](https://school.programmers.co.kr/learn/courses/30/lessons/70129) | - |
+| 22일차 | 문제64 달팽이 수열 만들기 | [달팽이 수열 만들기](https://github.com/dremdeveloper/codingtest_python/blob/main/solution/64.py) | - |
+| 21일차 | 문제63 두 행렬을 곱한 후 전치 행렬 만들기 | [두 행렬을 곱한 후 전치 행렬 만들기](https://github.com/dremdeveloper/codingtest_python/blob/main/solution/63.py) | - |
+| 21일차 | 문제62 배열 회전하기 | [배열 회전하기](https://github.com/dremdeveloper/codingtest_python/blob/main/solution/62.py) | - |
+| 21일차 | 문제61 지형 이동 | [지형 이동](https://school.programmers.co.kr/learn/courses/30/lessons/62050) | - |
 | 20일차 | 문제60 튜플 | [튜플](https://school.programmers.co.kr/learn/courses/30/lessons/64065) | - |
 | 20일차 | 문제59 가장 큰 수 | [가장 큰 수](https://school.programmers.co.kr/learn/courses/30/lessons/42746) | - |
 | 20일차 | 문제58 K번째 수 | [K번째 수](https://school.programmers.co.kr/learn/courses/30/lessons/42748) | - |

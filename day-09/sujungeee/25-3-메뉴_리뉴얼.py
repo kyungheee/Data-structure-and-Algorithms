@@ -1,0 +1,22 @@
+# 프로그래머스 다른 사람 코드
+# https://school.programmers.co.kr/learn/courses/30/lessons/72411/solution_groups?language=python3
+# counter.most_common 사용
+
+from itertools import combinations
+from collections import Counter
+
+def solution(orders, course):
+    answer= []
+
+    for num in course:
+        menu = []
+
+        for order in orders:
+            menu += combinations(sorted(order),num)
+        counter= Counter(menu).most_common()
+
+        for key, value in counter:
+            if (value >= 2) and (value == counter[0][1]):
+                answer.append("".join(key))
+
+    return sorted(answer)

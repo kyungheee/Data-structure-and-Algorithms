@@ -1,0 +1,40 @@
+# n=8
+# k=2
+# cmd=["D 2","C","U 3","C","D 4","C","U 2","Z","Z"]
+
+delete=[]
+up=[i-1 for i in range(n+2)]    #[-1,0,1,2,3,4,5,6,7,8]
+down=[i+1 for i in range(n+1)]  #[     1,2,3,4,5,6,7,8,9]
+k += 1
+
+
+for cmd_i in cmd:
+    if cmd_i.startswith("C"): #삭제 후 아래 선택 / 맨 끝에것 삭제라면 가장 근처 선택
+        delete.append(k)
+        up[down[k]]=up[k]
+        down[up[k]]=down[k]
+        k= up[k]  if n<down[k] else down[k]
+        #(k의 다음 항목 인덱스)가 전체 항목수(8)보다 크면 =>(삭제된 항목 = 마지막 항목)이니 up[k]
+        #그렇지 않으면 down[k]를 'k'값으로 재구성한다
+
+    elif cmd_i.startswith("Z"):  #복원
+        restore = delete.pop()  #복원할 값
+        down[up[restore]] = restore
+        up[down[restore]] = restore
+
+    else:   
+        action, num = cmd_i.split() 
+        #action = D, U, D, U
+        #num = 2, 3, 4,2
+        if action =="U":
+            for _ in range(int(num)):
+                k=up[k]
+        else:
+            for _ in range(int(num)):
+                k=down[k]
+# print(delete)
+answer = ["0"]*n
+for i in delete:
+    answer[i-1] = "X"
+return "".join(answer)    
+# print("".join(answer))

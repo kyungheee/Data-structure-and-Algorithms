@@ -1,11 +1,10 @@
+<<  큐의 개념  >>
+queue는 '줄을 서다'는 뜻을 가지고 있습니다.
+먼저 들어간 데이터가 먼저 나오는 자료구조.
+스택과 동일하게 큐도 삽입연산을 (푸시), 꺼내는 연산을 (팝)이라고 합니다.
 
 
-
-
-
-
-<  큐의 ADT  > 
-
+<<  큐의 ADT  >>
 ** 연산 **
 boolean isFull() 
 큐에 들어있는 데이터 개수가 maxsize인지 확인해 boolean 값을 반환합니다.
@@ -28,8 +27,6 @@ ItemType pop()
 
 
 
-
-
 ** 상태 **
 int front
 큐에서 마지막에 팝한 위치를 기록합니다.
@@ -39,3 +36,80 @@ int rear
 
 ItemType data[maxsize]
 큐의 데이터를 관리하는 배열입니다. 최대 maxsize개의 데이터를 관리합니다.
+
+
+
+<< 큐 구현하기 >>
+방법 1, 리스트를 큐처럼 활용하기
+푸시 연산은 .append() / 팝 연산은 .pop() 활용합니다.
+
+stack과 차이점
+큐는 선입선출(FIFO)이므로 pop()메서드에 인수를 넣지 않으면 큐의 맨 앞 원소가 삭제됩니다.
+스택은 선입후출(FILO)이므로 pop()메서드에 인수를 넣지 않으면 스택의 맨 뒤 원소가 삭제 됩니다.
+queue =[]
+queue.append(1)
+queue.append(2)
+queue.append(3)
+
+first_item=queue.pop(0)
+
+print(first_item)  #1
+
+queue.append(4)
+queue.append(5)
+
+first_item =queue.pop(0)
+
+print(first_item)  #2
+
+
+방법 2, 덱을 큐처럼 활용하기
+덱은 Double Ended Queue 의 줄임말입니다.
+양 끝에서 삽입, 삭제 할 수 있는 큐를 구현한 겁니다. 이 특징 때문에 큐를 구현할때는 덱을 사용하는 것이 좋습니다.
+from collections import deque
+
+queue = deque()
+
+queue.append(1)
+queue.append(2)
+queue.append(3)
+
+first_item=queue.popleft()
+
+print(first_item)  #1
+
+queue.append(4)
+queue.append(5)
+
+first_item =queue.popleft()
+
+print(first_item)  #2
+
+
+
+
+<< pop(0)과 popleft(0)의 성능 비교하기 >>
+from collection import deque
+import time
+
+lst = list(range(100000))
+dq = deque(range(100000))
+
+
+#pop 성능 측정
+start_time = time.time()
+for i in range(100000):
+    lst.pop(0)
+print( "pop(0) 소요시간: ", time.time() - start_time)
+#pop(0) 소요시간 : 0.7949254512786865
+
+
+#popleft(0) 성능 측정
+start_time = time.time()
+for i in range(100000):
+    dq.popleft()
+print( "deque의 popleft()  소요시간: ", time.time() - start_time)
+#deque의 popleft() 소요시간 : 0.0071375370025634766
+
+
+
